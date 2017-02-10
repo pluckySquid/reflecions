@@ -1,0 +1,23 @@
+1.QUESTION ONE :  How did viewing a diff between two versions of a file 				  help you see the bug that was introduced?
+ .ANSWER : 		  If I don't have the old version, it is really 						 difficult for me to read the file from the first line 					to the last line since the code can be a lot. With 					 the old version, and even the compare funtion, 					 differences are much easier to find.
+ 2.QUESTION TWO :How could having easy access to the entire history of 					a file make you a more efficient programmer in the 					long term?
+  .ANSWER :	 	  Liking writing a article, we might make some mistakes 				or write something we decide better without. When we 				want to change these erros. the best way is to return				to the original condition.	The same to the codes. If 				 we made some erros and make the whole projest fill down				the best way is to return to the best version and 					rethinking another way or write some different codes				based on the working project.
+  3.Question Three:
+ 				What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+ 	Answer:		When we can commit manually, it is very logical and 				easier for programmer to know what the changes are. 				programmer can commit only based on logical problem. 
+ 				The cons maybe is we can't reserve all the changes regularly, which poeple can close the file unconsciously
+ 				without reserve.
+ 4. Question Four:
+ 				Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+ 	Answer:		I think that because making a program are very diferent 			than the google docs. We need to change all the docs at 			the mean time to make sure our commit can change all 
+ 				the files at the mean time. Usually the multiple files also have connections, if we only commit one file, the other file may be wrong.
+
+ 5.Question Five:
+ 				How can you use the commands git log and git diff to view the history of files?
+  	Answer:		The commands git log give every commit a name, which 
+  				easier for coder to check the specific point immediately.Which is Amazing that each time we want to
+  				find a change, we can use it to find efficientely.
+6. Question Six:
+				How might using version control make you more confident to make changes that could break something?
+	Answer:		When I know I might break something, I don't need to 
+				worry because I will know that I can change it back.

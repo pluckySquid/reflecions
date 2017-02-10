@@ -1,0 +1,33 @@
+
+
+Question two:
+				How is the staging area different from the working 
+				directory and the repository? What value do you think 
+				it offers?
+	Answer:		Staging area is the medium stage from working directory
+				to repository. It can let us change which files we want.
+				We can add whatever the files we need into the staging 
+				area, no one file one commit or all files commit at 
+				once. 
+Question Three:
+				How can you use the staging area to make sure you have one commit per logical change?
+	Answer:		It's ok to add many changes files from working 
+				directory to the staging area, which means I can use git
+				add many times. But I have to commit after a logical change. If I forget to commit, I can use git status to 
+				whether I have changed from working directory to staging area. And git diff --staged to see what change from staged area to the latest commit. Then commit it.
+Question Four:	
+				What are some situations when branches would be helpful	In keeping your history organized? How would branches help?
+	Answer:		
+				Sometimes we want to add some experimental changes. We don't want to add it to the master branch, beacuse we are afraid it may be wrong or we may just want just try it. The branch will give us a new branch to try the changes.
+Question Five:	
+				How do the diagrams help you visualize the branch structure?
+	Answer:		
+				It can help me notice witch the branches are.
+Question Six:	
+				What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	Answer:
+				When we merge two branches together, we will add all the new code different from the point whch they had the branch together. The diagram helps us to understand the branch and merge better.
+Question Seven:
+				What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	Answer:
+				If git automaticlly merge two commits, the whole program maybe breack down. Manually is slow and lot's of work to do, but this is the only way to merge. Even the same person write the branches have to merge them manually.ssss
